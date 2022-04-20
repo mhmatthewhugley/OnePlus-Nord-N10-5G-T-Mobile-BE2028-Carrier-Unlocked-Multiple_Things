@@ -1,0 +1,3 @@
+Install lawnchair launcher
+Look into magisk plugins
+Look into root only apps
