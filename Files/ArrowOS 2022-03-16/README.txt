@@ -24,6 +24,7 @@ or
 2. run "adb reboot bootloader"
 then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.bin>"
 9. Fully unlock the bootloader using "fastboot oem unlock" *WILL DELETE ALL DATA.* You have to confirm it on the phone aswell.
+
 10. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button then select English for your language.
 11. Click "Advanced" then "Reboot to fastboot" then confirm it by clicking "Reboot to fastboot"
 12. Flash the patched boot image with "fastboot flash boot <magisk_patched-numbers_lettersnumber.img>"
@@ -40,11 +41,4 @@ Make sure you unzip the ROMwithGapps.zip for the actual files
 22. Once it is finished back up 1 page and go to and click "Advanced" Then click "Enter fastboot"
 23. Run "fastboot --set-active=b"
 24. Flash recovery again. "fastboot flash recovery <recovery.img>"
-Click "Advanced" then "Power off"
-25. Hold the volume down and power button then sideload ROM.
-26. Go to "Apply update" and choose "Apply from ADB"
-27. Sideload the ROM by running "adb sideload <rom.zip>"
-28. Once it is finished back up 1 page and go to and click "Factory reset" then click "Format data/factory reset".
-29. Now use the volume button to go down and select "Format data" then click the power button to execute it.
-30. When it is done get to the main screen by using the volume key to go to the arrow and clicking the power button on the arrow to go back a page.
-31. Click "Reboot system now".
+25. Click "Advanced" then "Power off"
