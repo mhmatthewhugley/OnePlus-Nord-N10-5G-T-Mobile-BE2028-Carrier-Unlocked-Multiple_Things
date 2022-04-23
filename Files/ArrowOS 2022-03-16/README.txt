@@ -27,18 +27,18 @@ then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.
 
 10. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button then select English for your language.
 11. Click "Advanced" then "Reboot to fastboot" then confirm it by clicking "Reboot to fastboot"
-12. Flash the patched boot image with "fastboot flash boot <magisk_patched-numbers_lettersnumber.img>"
-13. Then enter "fastboot --set-active=a" since the android 11 update is set to slot B.
-14. Install recovery on the selected slot A. "fastboot flash recovery <recovery.img>"
-15. Boot into recovery by using the volume key to go down two or until "Recovery mode" is shown, then press the power button to boot to it.
-16. Use volume key to select "Factory reset" then press the power button to execute it. 
-17. Press the power button again to execute the selected "Format data/factory reset" button.
-18. Now use the volume button to go down and select "Format data" then click the power button to execute it.
-19. When it is done get to the main screen by using the volume key to go to the arrow and clicking the power button on the arrow to go back a page.
-20. Go to "Apply update" and choose "Apply from ADB"
+12. Then enter "fastboot --set-active=a" since the android 11 update is set to slot B.
+13. Install recovery on the selected slot A. "fastboot flash recovery <recovery.img>"
+14. Boot into recovery by using the volume key to go down two or until "Recovery mode" is shown, then press the power button to boot to it.
+15. Use volume key to select "Factory reset" then press the power button to execute it. 
+16. Press the power button again to execute the selected "Format data/factory reset" button.
+17. Now use the volume button to go down and select "Format data" then click the power button to execute it.
+18. When it is done get to the main screen by using the volume key to go to the arrow and clicking the power button on the arrow to go back a page.
+19. Go to "Apply update" and choose "Apply from ADB"
 Make sure you unzip the ROMwithGapps.zip for the actual files
-21. Sideload the ROM by running "adb sideload <rom.zip>"
-22. Once it is finished back up 1 page and go to and click "Advanced" Then click "Enter fastboot"
-23. Run "fastboot --set-active=b"
-24. Flash recovery again. "fastboot flash recovery <recovery.img>"
-25. Click "Advanced" then "Power off"
+20. Sideload the ROM by running "adb sideload <rom.zip>"
+21. Once it is finished back up 1 page and go to and click "Advanced" Then click "Enter fastboot"
+22. Run "fastboot --set-active=b"
+23. Flash recovery again. "fastboot flash recovery <recovery.img>"
+24. Flash the patched boot image with "fastboot flash boot <magisk_patched-numbers_lettersnumber.img>"
+25. Click "Reboot system now"
