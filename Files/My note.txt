@@ -20,3 +20,5 @@ Safetnetfix? magiskhideprops?
 
 Fox's Magisk Module Manager
 essential magisk module for me is ACC, or the GUI version, ACCA from FDroid
+
+https://play.google.com/store/apps/details?id=net.metareverse.magiskrepo
