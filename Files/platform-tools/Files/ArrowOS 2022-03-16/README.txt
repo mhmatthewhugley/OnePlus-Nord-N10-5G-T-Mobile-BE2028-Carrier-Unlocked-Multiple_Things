@@ -26,6 +26,7 @@ or
 2. run "adb reboot bootloader"
 then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.bin>"
 9. Fully unlock the bootloader using "fastboot oem unlock" *WILL DELETE ALL DATA.* You have to confirm it on the phone aswell.
+This section of instructions is for flashing the INTL FIRMWARE and debloating.
 10. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button then select English for your language.
 11. Click "Advanced" then "Reboot to bootloader" then confirm it by clicking "Reboot to bootloader"
 12. ./fastboot boot ./Files/twrp_3.6.1.img
@@ -49,6 +50,7 @@ Click "Reboot" Click "Fastboot"
 Click "Reboot" Click "Fastboot"
 24. ./fastboot set_active a
 42. Like before ADB Sideload.
+This section of instructions is for flashing the ROM and TWRP and pushes the magisk apk to /sdcard.
 Make sure you unzip the ROMwithGapps.zip for the actual files
 58. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
 Click "Reboot" Click "Fastboot"
@@ -59,6 +61,7 @@ Click "Reboot" Click "Fastboot"
 ./fastboot flash recovery ./Files/twrp_3.6.1.img
 52. ./adb push ./Files/Magisk-v24.3.apk /sdcard
 Boot install apk then follow the commands below.
+This section of instructions is for flashing the patched boot image.
 Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
 Click "Reboot" Click "Fastboot"
 ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
