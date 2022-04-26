@@ -59,9 +59,6 @@ sleep 10
 ./fastboot flash  keymaster ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/keymaster.img
 ./fastboot flash  keymaster_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/keymaster.img
 ./fastboot flash  keymaster_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/keymaster.img
-./fastboot flash logo ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/logo.img
-./fastboot flash logo_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/logo.img
-./fastboot flash logo_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/logo.img
 ./fastboot flash mdm_oem_stanvbk ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/mdm_oem_stanvbk.img
 ./fastboot flash mdm_oem_stanvbk_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/mdm_oem_stanvbk.img
 ./fastboot flash mdm_oem_stanvbk_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/mdm_oem_stanvbk.img
