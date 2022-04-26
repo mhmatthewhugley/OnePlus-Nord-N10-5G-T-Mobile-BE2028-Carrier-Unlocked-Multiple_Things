@@ -1,4 +1,5 @@
 Instructions to flash INTL FIRMWARE to UN-brand the device(BE2028, T-Mobile), and flash Arrow OS with root(Magisk).
+Firstly I would like to thank "@nosaj_33" for spending "5 hours, 38 minutes and 22 seconds" helping me UN-brand the device and giving me instruction. And the day before spending "44 minutes and 48 seconds" with me.
 This section of instructions is for getting the patched boot image. And unlocking the bootloader.
 1. Start on Android 11 aka update the phone fully. You dont have to set the phone up and transfer and login because later the data will be reset.
 2. Enable developer options  "Settings", then tap "About phone", then tap "Software version" untill it says it is enabled.
