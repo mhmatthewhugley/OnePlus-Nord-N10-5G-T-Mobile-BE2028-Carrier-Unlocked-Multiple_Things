@@ -12,9 +12,9 @@ gather and enter all the information to the page,
 in order to get the unlock code you have to boot to the bootloader,
 first, connect the phone to computer
 then there are two methods of getting to the bootloader:
-1. unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader"
+. unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader"
 or
-2. run "adb reboot bootloader"
+. run "adb reboot bootloader"
 then after one of those methods are done run "fastboot devices", then run "fastboot oem get_unlock_code"
 While you wait for the unlock token you can prepare the rooted boot image
 4. Transfer the boot image and magisk apk to the phone
@@ -24,9 +24,9 @@ While you wait for the unlock token you can prepare the rooted boot image
 8. After you get the email with the unlock token you have to download the <unlock_code.bin> then boot to the bootloader,
 first, connect the phone to computer
 then there are two methods of getting to the bootloader:
-1. unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader"
+. unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader"
 or
-2. run "adb reboot bootloader"
+. run "adb reboot bootloader"
 then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.bin>"
 9. Fully unlock the bootloader using "fastboot oem unlock" *WILL DELETE ALL DATA.* You have to confirm it on the phone aswell.
 
@@ -37,40 +37,37 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 13. Extract "Restore_OOS.7z"
 14. Extract the file "OnePlusNordN105G_Restore_OOS11.0.2.zip"
 15. bash ./Files/script_1.sh
-18. Extract "14.0.35 OTA.7z"
-You dont have to set the phone up and transfer and login and all of that just skip it.
-25. Enable developer options  "Settings", then tap "About phone", then tap "Build number" untill it says it is enabled.
-26. Go to "Settings", then "System", then "Developer Options", then enable "Advanced reboot" and "USB debugging"
+16. Extract "14.0.35 OTA.7z"
+. You dont have to set the phone up and transfer and login and all of that just skip it.
+17. Enable developer options  "Settings", then tap "About phone", then tap "Build number" untill it says it is enabled.
+18. Go to "Settings", then "System", then "Developer Options", then enable "Advanced reboot" and "USB debugging"
 19. ./adb push ./Files/14.0.35\ OTA.7z.001_FILES/OnePlusN10Oxygen_14.O.35_OTA_0350_all_2203011055_33cb47218ca747c0.zip /sdcard
-22. Go to "Settings", "System", "System updates" then look click gear in top right corner and click the file then click "INSTALL NOW"
-
-23. Do the update again.
-24. If it fails run the debloat if it does not fail still run the debloat.
-
-27. bash ./Files/full_debloat.adb
-28. ./adb reboot recovery
-29. Click english, advanced, reboot to fastboot, confirm it
-30. ./fastboot boot ./Files/twrp_3.6.1.img
-31. Click "Advanced", "ADB Sideload" Swipe to start.
-32. ./adb sideload ./Files/copypartitions.zip
-33. Click "Reboot" Click "Fastboot"
-34. ./fastboot set_active a
-35. Like before ADB Sideload.
+20. Go to "Settings", "System", "System updates" then look click gear in top right corner and click the file then click "INSTALL NOW"
+21. Do the update again.
+22. If it fails run the debloat if it does not fail still run the debloat.
+23. bash ./Files/full_debloat.adb
+24. ./adb reboot recovery
+25. Click english, advanced, reboot to fastboot, confirm it
+26. ./fastboot boot ./Files/twrp_3.6.1.img
+27. Click "Advanced", "ADB Sideload" Swipe to start.
+28. ./adb sideload ./Files/copypartitions.zip
+29. Click "Reboot" Click "Fastboot"
+30. ./fastboot set_active a
+31. Like before ADB Sideload.
 
 This section of instructions is for flashing the ROM and TWRP and pushes the magisk apk to /sdcard.
-37. Make sure you unzip the ROMwithGapps.zip for the actual files
-38. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
-39. Click "Reboot" Click "Fastboot"
-40. ./fastboot -w
-41. ./adb push ./Files/twrp_3.6.1_EduardoA3677_flasher.zip /sdcard
-42. Install it
-43. Click "Reboot" Click "Fastboot"
-44. ./fastboot flash recovery ./Files/twrp_3.6.1.img
-45. ./adb push ./Files/Magisk-v24.3.apk /sdcard
-46. Boot install apk then follow the commands below.
+32. Make sure you unzip the ROMwithGapps.zip for the actual files
+33. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
+34. Click "Reboot" Click "Fastboot"
+35. ./fastboot -w
+36. ./adb push ./Files/twrp_3.6.1_EduardoA3677_flasher.zip /sdcard
+37. Install it
+38. Click "Reboot" Click "Fastboot"
+39. ./fastboot flash recovery ./Files/twrp_3.6.1.img
+40. ./adb push ./Files/Magisk-v24.3.apk /sdcard
+41. Boot install apk then follow the commands below.
 
 This section of instructions is for flashing the patched boot image.
-48. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
-49. Click "Reboot" Click "Fastboot"
-50. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
-
+42. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
+43. Click "Reboot" Click "Fastboot"
+44. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
