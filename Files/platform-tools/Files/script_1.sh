@@ -6,16 +6,16 @@
 ./fastboot flash modem_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/modem.img
 ./fastboot flash boot_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/boot.img
 ./fastboot flash recovery_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/recovery.img
-./fastboot --disable-verity --disable-verification flash vbmeta_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta.img
-./fastboot --disable-verity --disable-verification flash vbmeta_system_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta_system.img
+./fastboot flash vbmeta_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta.img
+./fastboot flash vbmeta_system_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta_system.img
 sleep 10
 ./fastboot reboot-bootloader
 ./fastboot set_active b
 ./fastboot flash modem_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/modem.img
 ./fastboot flash boot_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/boot.img
 ./fastboot flash recovery_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/recovery.img
-./fastboot --disable-verity --disable-verification flash vbmeta_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta.img
-./fastboot --disable-verity --disable-verification flash vbmeta_system_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta_system.img
+./fastboot flash vbmeta_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta.img
+./fastboot flash vbmeta_system_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta_system.img
 sleep 10
 fastboot reboot-bootloader
 sleep 10
@@ -57,33 +57,6 @@ sleep 10
 ./fastboot flash  xbl_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/xbl.img
 ./fastboot flash  xbl_config_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/xbl_config.img
 ./fastboot flash  xbl_config_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/xbl_config.img
-sleep 10
-./fastboot delete-logical-partition odm
-./fastboot delete-logical-partition odm_a
-./fastboot delete-logical-partition odm_b
-./fastboot delete-logical-partition product
-./fastboot delete-logical-partition product_a
-./fastboot delete-logical-partition product_b
-./fastboot delete-logical-partition system
-./fastboot delete-logical-partition system_a
-./fastboot delete-logical-partition system_b
-./fastboot delete-logical-partition system_ext
-./fastboot delete-logical-partition system_ext_a
-./fastboot delete-logical-partition system_ext_b
-./fastboot delete-logical-partition vendor
-./fastboot delete-logical-partition vendor_a
-./fastboot delete-logical-partition vendor_b
-sleep 10
-./fastboot create-logical-partition odm_a 100000
-./fastboot create-logical-partition odm_b 100000
-./fastboot create-logical-partition product_a 100000
-./fastboot create-logical-partition product_b 100000
-./fastboot create-logical-partition system_a 100000
-./fastboot create-logical-partition system_b 100000
-./fastboot create-logical-partition system_ext_a 100000
-./fastboot create-logical-partition system_ext_b 100000
-./fastboot create-logical-partition vendor_a 100000
-./fastboot create-logical-partition vendor_b 100000
 sleep 10
 ./fastboot flash odm ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/odm.img
 ./fastboot flash odm_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/odm.img
