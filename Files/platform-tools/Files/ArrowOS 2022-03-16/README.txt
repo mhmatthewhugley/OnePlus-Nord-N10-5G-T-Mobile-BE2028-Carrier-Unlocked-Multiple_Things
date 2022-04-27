@@ -1,5 +1,8 @@
+
 Instructions to flash INTL FIRMWARE to UN-brand the device(BE2028, T-Mobile), and flash Arrow OS with root(Magisk).
+
 Firstly I would like to thank "@nosaj_33" for spending "5 hours, 38 minutes and 22 seconds" helping me UN-brand the device and giving me instruction. And the day before spending "44 minutes and 48 seconds" with me.
+
 This section of instructions is for getting the patched boot image. And unlocking the bootloader.
 1. Start on Android 11 aka update the phone fully. You dont have to set the phone up and transfer and login because later the data will be reset.
 2. Enable developer options  "Settings", then tap "About phone", then tap "Software version" untill it says it is enabled.
@@ -26,6 +29,7 @@ or
 2. run "adb reboot bootloader"
 then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.bin>"
 9. Fully unlock the bootloader using "fastboot oem unlock" *WILL DELETE ALL DATA.* You have to confirm it on the phone aswell.
+
 This section of instructions is for flashing the INTL FIRMWARE and debloating.
 10. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button then select English for your language.
 11. Click "Advanced" then "Reboot to bootloader" then confirm it by clicking "Reboot to bootloader"
@@ -33,18 +37,16 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 13. Extract "Restore_OOS.7z"
 14. Extract the file "OnePlusNordN105G_Restore_OOS11.0.2.zip"
 15. bash ./Files/script_1.sh
-
-16. Click "Reboot" Click "Fastboot"
-17. ./fastboot -w
 18. Extract "14.0.35 OTA.7z"
-19. ./adb push ./Files/OnePlusN10Oxygen_14.O.35_OTA_0350_all_2203011055_33cb47218ca747c0.zip /sdcard
-20. ./adb reboot bootloader
-21. Click pwr button to start.
-22. Okay settings, system updates look for gear in top right corner or search local update your doing a local update then click it and click INSTALL NOW
+You dont have to set the phone up and transfer and login and all of that just skip it.
+25. Enable developer options  "Settings", then tap "About phone", then tap "Build number" untill it says it is enabled.
+26. Go to "Settings", then "System", then "Developer Options", then enable "Advanced reboot" and "USB debugging"
+19. ./adb push ./Files/14.0.35\ OTA.7z.001_FILES/OnePlusN10Oxygen_14.O.35_OTA_0350_all_2203011055_33cb47218ca747c0.zip /sdcard
+22. Go to "Settings", "System", "System updates" then look click gear in top right corner and click the file then click "INSTALL NOW"
+
 23. Do the update again.
 24. If it fails run the debloat if it does not fail still run the debloat.
-25. Enable developer options  "Settings", then tap "About phone", then tap "Build number" untill it says it is enabled.
-26. Go to "Settings", then "System", then "Developer options", then enable "Advanced reboot" and "USB debugging"
+
 27. bash ./Files/full_debloat.adb
 28. ./adb reboot recovery
 29. Click english, advanced, reboot to fastboot, confirm it
@@ -54,7 +56,8 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 33. Click "Reboot" Click "Fastboot"
 34. ./fastboot set_active a
 35. Like before ADB Sideload.
-36. This section of instructions is for flashing the ROM and TWRP and pushes the magisk apk to /sdcard.
+
+This section of instructions is for flashing the ROM and TWRP and pushes the magisk apk to /sdcard.
 37. Make sure you unzip the ROMwithGapps.zip for the actual files
 38. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
 39. Click "Reboot" Click "Fastboot"
@@ -65,7 +68,9 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 44. ./fastboot flash recovery ./Files/twrp_3.6.1.img
 45. ./adb push ./Files/Magisk-v24.3.apk /sdcard
 46. Boot install apk then follow the commands below.
-47. This section of instructions is for flashing the patched boot image.
+
+This section of instructions is for flashing the patched boot image.
 48. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
 49. Click "Reboot" Click "Fastboot"
 50. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
+
