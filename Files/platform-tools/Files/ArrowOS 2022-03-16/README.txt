@@ -58,7 +58,7 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 This section of instructions is for flashing the ROM and TWRP.
 29. Like before ADB Sideload.
 30. Make sure you unzip the ROMwithGapps.zip for the actual files
-31. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
+31. ./adb sideload ./Files/ArrowOS\ 2022-03-16/ROM\ \[WITH\ GAPPS\]/ROM\ \[WITH\ GAPPS\]/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
 32. Click "Reboot" Click "Fastboot"
 33. ./fastboot -w
 34. ./adb push ./Files/twrp_3.6.1_EduardoA3677_flasher.zip /sdcard

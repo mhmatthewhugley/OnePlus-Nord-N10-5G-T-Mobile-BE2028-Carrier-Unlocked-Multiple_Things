@@ -1,5 +1,5 @@
 #!/bin/bash
-./adb reboot-bootloader
+./adb reboot bootloader
 ./fastboot -w
 ./fastboot flash dtbo ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/dtbo.img
 ./fastboot set_active a
@@ -9,7 +9,7 @@
 ./fastboot flash vbmeta_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta.img
 ./fastboot flash vbmeta_system_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta_system.img
 sleep 10
-./fastboot reboot-bootloader
+./fastboot reboot bootloader
 ./fastboot set_active b
 ./fastboot flash modem_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/modem.img
 ./fastboot flash boot_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/boot.img
@@ -17,7 +17,7 @@ sleep 10
 ./fastboot flash vbmeta_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta.img
 ./fastboot flash vbmeta_system_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/vbmeta_system.img
 sleep 10
-fastboot reboot-bootloader
+fastboot reboot bootloader
 sleep 10
 ./fastboot reboot fastboot
 ./fastboot flash  abl_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/abl.img
