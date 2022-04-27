@@ -14,7 +14,7 @@ first, connect the phone to computer
 then there are two methods of getting to the bootloader:
 . unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader"
 or
-. run "adb reboot bootloader"
+. run "./adb reboot bootloader"
 then after one of those methods are done run "fastboot devices", then run "fastboot oem get_unlock_code"
 While you wait for the unlock token you can prepare the rooted boot image
 4. Transfer the boot image and magisk apk to the phone
@@ -26,7 +26,7 @@ first, connect the phone to computer
 then there are two methods of getting to the bootloader:
 . unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader"
 or
-. run "adb reboot bootloader"
+. run "./adb reboot bootloader"
 then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.bin>"
 9. Fully unlock the bootloader using "fastboot oem unlock" *WILL DELETE ALL DATA.* You have to confirm it on the phone aswell.
 
@@ -50,14 +50,13 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 23. bash ./Files/full_debloat.adb
 24. ./adb reboot recovery
 25. Click english, advanced, reboot to fastboot, confirm it
-26. ./fastboot boot ./Files/twrp_3.6.1.img
+26. ./fastboot flash recovery ./Files/ArrowOS\ 2022-03-16/RECOVERY/twrp_3.6.1.img
+. Use the volume keys to select and use the power button to click "Recovery mode"
 27. Click "Advanced", "ADB Sideload" Swipe to start.
-28. ./adb sideload ./Files/copypartitions.zip
-29. Click "Reboot" Click "Fastboot"
-30. ./fastboot set_active a
-31. Like before ADB Sideload.
+28. ./adb sideload ./Files/copy-partitions-20210323_1922.zip
 
 This section of instructions is for flashing the ROM and TWRP and pushes the magisk apk to /sdcard.
+31. Like before ADB Sideload.
 32. Make sure you unzip the ROMwithGapps.zip for the actual files
 33. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
 34. Click "Reboot" Click "Fastboot"
