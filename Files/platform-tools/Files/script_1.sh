@@ -45,8 +45,6 @@ sleep 10
 ./fastboot flash  modem_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/modem.img
 ./fastboot flash  modem_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/modem.img
 ./fastboot flash oem_stanvbk ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/oem_stanvbk.img
-./fastboot flash oem_stanvbk_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/oem_stanvbk.img
-./fastboot flash oem_stanvbk_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/oem_stanvbk.img
 ./fastboot flash  qupfw_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/qupfw.img
 ./fastboot flash  qupfw_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/qupfw.img
 ./fastboot flash  storsec_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/storsec.img
