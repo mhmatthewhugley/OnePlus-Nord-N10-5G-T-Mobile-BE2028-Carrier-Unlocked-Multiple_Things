@@ -56,19 +56,19 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 28. ./adb sideload ./Files/copy-partitions-20210323_1922.zip
 
 This section of instructions is for flashing the ROM and TWRP and pushes the magisk apk to /sdcard.
-31. Like before ADB Sideload.
-32. Make sure you unzip the ROMwithGapps.zip for the actual files
-33. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
-34. Click "Reboot" Click "Fastboot"
-35. ./fastboot -w
-36. ./adb push ./Files/twrp_3.6.1_EduardoA3677_flasher.zip /sdcard
-37. Install it
-38. Click "Reboot" Click "Fastboot"
-39. ./fastboot flash recovery ./Files/twrp_3.6.1.img
-40. ./adb push ./Files/Magisk-v24.3.apk /sdcard
-41. Boot install apk then follow the commands below.
+29. Like before ADB Sideload.
+30. Make sure you unzip the ROMwithGapps.zip for the actual files
+31. ./adb sideload ./Files/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
+32. Click "Reboot" Click "Fastboot"
+33. ./fastboot -w
+34. ./adb push ./Files/twrp_3.6.1_EduardoA3677_flasher.zip /sdcard
+35. Install it
+36. Click "Reboot" Click "Fastboot"
+37. ./fastboot flash recovery ./Files/twrp_3.6.1.img
+38. ./adb push ./Files/Magisk-v24.3.apk /sdcard
+39. Boot install apk then follow the commands below.
 
 This section of instructions is for flashing the patched boot image.
-42. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
-43. Click "Reboot" Click "Fastboot"
-44. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
+40. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
+41. Click "Reboot" Click "Fastboot"
+42. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
