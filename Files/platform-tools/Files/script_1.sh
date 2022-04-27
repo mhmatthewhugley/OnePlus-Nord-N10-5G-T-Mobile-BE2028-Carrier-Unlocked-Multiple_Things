@@ -77,10 +77,6 @@ sleep 10
 ./fastboot flash  qupfw ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/qupfw.img
 ./fastboot flash  qupfw_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/qupfw.img
 ./fastboot flash  qupfw_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/qupfw.img
-./fastboot flash  recovery ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/recovery.img
-./fastboot flash spunvm ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/spunvm.img
-./fastboot flash spunvm_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/spunvm.img
-./fastboot flash spunvm_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/spunvm.img
 ./fastboot flash  storsec ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/storsec.img
 ./fastboot flash  storsec_a ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/storsec.img
 ./fastboot flash  storsec_b ./Files/Restore_OOS.7z.001_FILES/OnePlusNordN105G_Restore_OOS11.0.2/storsec.img
