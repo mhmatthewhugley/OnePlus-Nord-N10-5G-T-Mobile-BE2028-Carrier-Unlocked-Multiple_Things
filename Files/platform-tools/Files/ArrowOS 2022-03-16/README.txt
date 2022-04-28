@@ -35,18 +35,12 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 11. Click "Advanced" then "Reboot to bootloader" then confirm it by clicking "Reboot to bootloader"
 12. ./fastboot boot ./Files/ArrowOS\ 2022-03-16/RECOVERY/twrp_3.6.1.img
 13. Extract "Restore_OOS.7z"
-14. Extract the file "OnePlusNordN105G_Restore_OOS11.0.2.zip"
+14. Extract the file "OnePlusNordN105G_Restore_OOS11.0.5.BE86AA.zip"
 15. bash ./Files/script_1.sh
-16. Extract "14.0.35 OTA.7z"
 . You dont have to set the phone up and transfer and login and all of that just skip it.
 17. Enable developer options go to "Settings", then tap "About phone", then tap "Build number" untill it says it is enabled.
 18. Go to "Settings", then "System", then "Developer Options", then enable "Advanced reboot" and "USB debugging"
-
-19. ./adb push ./Files/14.0.35\ OTA.7z.001_FILES/OnePlusN10Oxygen_14.O.35_OTA_0350_all_2203011055_33cb47218ca747c0.zip /sdcard
-20. Go to "Settings", "System", "System updates" then look click gear in top right corner and click the file then click "INSTALL NOW"
-21. Do the update again.
-
-22. If it fails run the debloat if it does not fail still run the debloat.
+22. Run the debloat.
 23. bash ./Files/full_debloat.adb
 24. ./adb reboot recovery
 25. Click english, advanced, reboot to fastboot, confirm it
@@ -55,6 +49,7 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 27. Click "Advanced", "ADB Sideload" Swipe to start.
 28. ./adb sideload ./Files/copy-partitions-20210323_1922.zip
 
+Work on everything below this line.
 This section of instructions is for flashing the ROM and TWRP.
 29. Like before ADB Sideload.
 30. Make sure you unzip the ROMwithGapps.zip for the actual files
