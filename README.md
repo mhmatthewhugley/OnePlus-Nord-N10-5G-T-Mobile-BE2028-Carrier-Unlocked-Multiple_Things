@@ -1,3 +1,14 @@
+| :warning: WARNING          |
+|:---------------------------|
+| To clone this entire repo you need 14.82GiB.      |
+
+| :exclamation:  Because this is only how I did it with my specific device,   |
+|-----------------------------------------|
+
+
+| :zap:        No WARRANTY or SUPPORT is provided!   |
+|-----------------------------------------|
+
 # OnePlus-Nord-N10-5G-T-Mobile-BE2028-Carrier-Unlocked-Custom-Rom-Installation
 What I did to install a custom rom on the Oneplus Nord N10 5G T mobile BE2028 carrier unlocked model.
 
