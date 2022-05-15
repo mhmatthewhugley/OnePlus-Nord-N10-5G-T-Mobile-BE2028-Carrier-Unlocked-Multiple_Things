@@ -33,7 +33,7 @@ then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.
 This section of instructions is for flashing the INTL FIRMWARE and debloating.
 10. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button then select English for your language.
 11. Click "Advanced" then "Reboot to bootloader" then confirm it by clicking "Reboot to bootloader"
-12. ./fastboot boot ./Files/ArrowOS\ 2022-03-16/RECOVERY/twrp_3.6.1.img
+12. ./fastboot boot ./Files/ArrowOS\ 2022-04-17/RECOVERY/recoveryHavocOS.img
 13. Extract "Restore_OOS.7z"
 14. Extract the file "OnePlusNordN105G_Restore_OOS11.0.5.BE86AA.zip"
 15. bash ./Files/script_1.sh
@@ -44,7 +44,7 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 23. bash ./Files/full_debloat.adb
 24. ./adb reboot recovery
 25. Click english, advanced, reboot to fastboot, confirm it
-26. ./fastboot flash recovery ./Files/ArrowOS\ 2022-03-16/RECOVERY/twrp_3.6.1.img
+26. ./fastboot flash recovery ./Files/ArrowOS\ 2022-04-17/RECOVERY/recoveryHavocOS.img
 . Use the volume keys to select and use the power button to click "Recovery mode"
 27. Click "Advanced", "ADB Sideload" Swipe to start.
 28. ./adb sideload ./Files/copy-partitions-20210323_1922.zip
@@ -53,13 +53,13 @@ Work on everything below this line.
 This section of instructions is for flashing the ROM and TWRP.
 29. Like before ADB Sideload.
 30. Make sure you unzip the ROMwithGapps.zip for the actual files
-31. ./adb sideload ./Files/ArrowOS\ 2022-03-16/ROM\ \[WITH\ GAPPS\]/ROM\ \[WITH\ GAPPS\]/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
+31. ./adb sideload ./Files/ArrowOS\ 2022-04-17/ROM\ \[WITH\ GAPPS\]/ROM\ \[WITH\ GAPPS\]/Arrow-v11.0-billie-UNOFFICIAL-20220316-GAPPS.zip
 32. Click "Reboot" Click "Fastboot"
 33. ./fastboot -w
 34. ./adb push ./Files/twrp_3.6.1_EduardoA3677_flasher.zip /sdcard
 35. Install it
 36. Click "Reboot" Click "Fastboot"
-37. ./fastboot flash recovery ./Files/twrp_3.6.1.img
+37. ./fastboot flash recovery ./Files/recoveryHavocOS.img
 
 This section of instructions is for prepping to patch the boot image by pushing the magisk apk to /sdcard so it can be installed.
 38. ./adb push ./Files/Magisk-v24.3.apk /sdcard
