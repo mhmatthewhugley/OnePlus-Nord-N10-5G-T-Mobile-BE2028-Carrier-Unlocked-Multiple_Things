@@ -1,5 +1,5 @@
 
-Instructions to flash INTL FIRMWARE to UN-brand the device(BE2028, T-Mobile), and flash Arrow OS with root(Magisk).
+Instructions to flash INTL FIRMWARE to UN-brand the device(BE2028, T-Mobile), and flash Havoc OS with root(Magisk).
 
 Firstly I would like to thank "@nosaj_33" for spending "5 hours, 38 minutes and 22 seconds" helping me UN-brand the device and giving me instruction. And the day before spending "44 minutes and 48 seconds" with me.
 
