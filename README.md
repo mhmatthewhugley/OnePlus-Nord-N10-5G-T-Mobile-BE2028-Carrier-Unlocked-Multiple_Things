@@ -9,17 +9,15 @@
 | :zap:        No WARRANTY or SUPPORT is provided!   |
 |-----------------------------------------|
 
-# OnePlus-Nord-N10-5G-T-Mobile-BE2028-Carrier-Unlocked-Custom-Rom-Installation
-What I did to install a custom rom on the Oneplus Nord N10 5G T mobile BE2028 carrier unlocked model.
+# OnePlus-Nord-N10-5G-T-Mobile-BE2028-Carrier-Unlocked-Multiple_Things
+What I did to flash INTL FIRMWARE to UN-brand the device(Oneplus Nord N10 5G BE2028, T-Mobile carrier unlocked), and flash Havoc OS with root(Magisk).
 
 All instructions were written based on using Linux Mint 20.3 x86_64
 
 All files are copyrighted to their respective owner.
 
-
-Instructions to flash INTL FIRMWARE to UN-brand the device(BE2028, T-Mobile), and flash Havoc OS with root(Magisk).
-
 Firstly I would like to thank "@nosaj_33" for spending "5 hours, 38 minutes and 22 seconds" helping me UN-brand the device and giving me instruction. And the day before spending "44 minutes and 48 seconds" with me.
+
 
 This section is what you need to unarchive/extract:
 The platform-tools_r33.0.1-linux.zip if on Linux and it is the appropriate version needed.
