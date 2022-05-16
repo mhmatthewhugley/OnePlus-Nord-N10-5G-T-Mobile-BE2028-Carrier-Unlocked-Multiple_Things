@@ -1,4 +1,4 @@
-Install lawnchair launcher
+Install lawnchair launcher & Open Camera
 Look into magisk plugins
 Look into root only apps
 
