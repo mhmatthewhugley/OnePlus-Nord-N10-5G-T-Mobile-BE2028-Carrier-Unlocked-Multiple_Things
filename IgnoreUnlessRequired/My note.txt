@@ -1,4 +1,5 @@
 Install lawnchair launcher & Open Camera
+https://play.google.com/store/apps/details?id=com.anforapps.camerasuperpixel
 Look into magisk plugins
 Look into root only apps
 
