@@ -3,11 +3,11 @@
 | To clone this entire repo you need 14.82GiB.      |
 
 | :exclamation:  Because this is only how I did it with my specific device,   |
-|-----------------------------------------|
+|-----------------------------------------------------------------------------|
 
 
 | :zap:        No WARRANTY or SUPPORT is provided!   |
-|-----------------------------------------|
+|----------------------------------------------------|
 
 # OnePlus-Nord-N10-5G-T-Mobile-BE2028-Carrier-Unlocked-Multiple_Things
 What I did to flash INTL FIRMWARE to UN-brand the device(Oneplus Nord N10 5G BE2028, T-Mobile carrier unlocked), and flash Havoc OS with root(Magisk).
@@ -19,13 +19,18 @@ All files are copyrighted to their respective owner.
 Firstly I would like to thank "@nosaj_33" for spending "5 hours, 38 minutes and 22 seconds" helping me UN-brand the device and giving me instruction. And the day before spending "44 minutes and 48 seconds" with me.
 
 
+
+
 This section is what you need to unarchive/extract:
+
 The platform-tools_r33.0.1-linux.zip if on Linux and it is the appropriate version needed.
 01. Extract "Restore_OOS.7z"
 02. Extract the file "OnePlusNordN105G_Restore_OOS11.0.5.BE86AA.zip"
 03. Make sure you unzip the ROM[Extract].7z for the actual files
 
+
 This section of instructions is for getting the patched boot image. And unlocking the bootloader.
+
 1. Start on Android 11 aka update the phone fully. You dont have to set the phone up and transfer and login because later the data will be reset.
 2. Enable developer options  "Settings", then tap "About phone", then tap "Software version" untill it says it is enabled.
 3. Go to "Settings", then "System", then "Developer options", then enable "OEM unlocking", "Advanced reboot" and "USB debugging"
@@ -53,7 +58,9 @@ or
 then unlock the bootloader by running: "fastboot flash cust-unlock <unlock_code.bin>"
 9. Fully unlock the bootloader using "fastboot oem unlock" *WILL DELETE ALL DATA.* You have to confirm it on the phone aswell.
 
+
 This section of instructions is for flashing the INTL FIRMWARE and debloating.
+
 10. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button then select English for your language.
 11. Click "Advanced" then "Reboot to bootloader" then confirm it by clicking "Reboot to bootloader"
 12. bash ./Files/script_1.sh
@@ -69,18 +76,23 @@ This section of instructions is for flashing the INTL FIRMWARE and debloating.
 20. Click "Install update", "ADB Sideload".
 21. ./adb sideload ./Files/copy-partitions-20210323_1922.zip
 
-This section of instructions is for flashing the ROM.
-22. Like before ADB Sideload.
 
+This section of instructions is for flashing the ROM.
+
+22. Like before ADB Sideload.
 23. ./adb sideload ./Files/HavocOS\ 2022-04-17/ROM\ \[WITH\ GAPPS\]/Havoc-OS-v4.15-20220417-billie-Unofficial-GApps.zip
 24. Click "Reboot" Click "Fastboot"
 25. ./fastboot -w
 
+
 This section of instructions is for prepping to patch the boot image by pushing the magisk apk to /sdcard so it can be installed.
+
 26. ./adb push ./Files/Magisk-v24.3.apk /sdcard
 27. Boot, install apk, then follow the next section below.
 
+
 This section of instructions is for flashing the patched boot image.
+
 28. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
 29. Click "Reboot" Click "Fastboot"
 30. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
