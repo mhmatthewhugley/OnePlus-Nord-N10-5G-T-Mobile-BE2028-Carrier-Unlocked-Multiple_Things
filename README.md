@@ -90,7 +90,7 @@ This section of instructions is for flashing the ROM.
 
 This section of instructions is for prepping to patch the boot image by pushing the magisk apk to /sdcard so it can be installed.
 
-29. ./adb push ./Files/Magisk-v24.3.apk /sdcard
+29. ./adb push ./Files/HavocOS\ 2022-04-17/Magisk/APK/Magisk-v24.3.apk /sdcard
 30. Boot, install apk, then follow the next section below.
 
 
