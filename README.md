@@ -91,7 +91,7 @@ This section of instructions is for flashing the ROM.
 This section of instructions is for prepping to patch the boot image by pushing the magisk apk to /sdcard so it can be installed.
 
 29. ./adb push ./Files/HavocOS\ 2022-04-17/Magisk/APK/Magisk-v24.3.apk /sdcard
-30. Boot, install apk, then follow the next section below.
+30. Boot, install apk, open, then follow the next section below.
 
 
 This section of instructions is for flashing the patched boot image.
@@ -99,3 +99,4 @@ This section of instructions is for flashing the patched boot image.
 31. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
 32. Click "Reboot" Click "Fastboot"
 33. ./fastboot flash boot ./Files/HavocOS\ 2022-04-17/Patched\ BOOT\ IMAGE/magisk_patched-24300_QENbr.img
+34. Boot then open the app and follow the instruction about additonal things being required it will reboot.
