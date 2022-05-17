@@ -81,18 +81,21 @@ This section of instructions is for flashing the ROM.
 
 22. Like before ADB Sideload.
 23. ./adb sideload ./Files/HavocOS\ 2022-04-17/ROM\ \[WITH\ GAPPS\]/Havoc-OS-v4.15-20220417-billie-Unofficial-GApps.zip
-24. Click "Reboot" Click "Fastboot"
-25. ./fastboot -w
+24. Go back a menu then click "Advanced" then "Reboot to bootloader"
+25. ./fastboot set_active a
+26. Use the volume keys to select and use the power button to click "Recovery mode"
+27. Do steps 22 and 23 again (This flashes it in the slot that is not active.).
+28. Go back a menu then click "Factory reset" then click "Format data/factory reset" and confirm it by clicking "Format data"
 
 
 This section of instructions is for prepping to patch the boot image by pushing the magisk apk to /sdcard so it can be installed.
 
-26. ./adb push ./Files/Magisk-v24.3.apk /sdcard
-27. Boot, install apk, then follow the next section below.
+29. ./adb push ./Files/Magisk-v24.3.apk /sdcard
+30. Boot, install apk, then follow the next section below.
 
 
 This section of instructions is for flashing the patched boot image.
 
-28. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
-29. Click "Reboot" Click "Fastboot"
-30. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
+31. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
+32. Click "Reboot" Click "Fastboot"
+33. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
