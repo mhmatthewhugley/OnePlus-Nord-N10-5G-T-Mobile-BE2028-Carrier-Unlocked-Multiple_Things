@@ -98,4 +98,4 @@ This section of instructions is for flashing the patched boot image.
 
 31. Hold power button and then click the Restart button then when the screen goes black hold the volume down and power button
 32. Click "Reboot" Click "Fastboot"
-33. ./fastboot flash boot <magisk_patched-numbers_lettersnumber.img>
+33. ./fastboot flash boot ./Files/HavocOS\ 2022-04-17/Patched\ BOOT\ IMAGE/magisk_patched-24300_QENbr.img
