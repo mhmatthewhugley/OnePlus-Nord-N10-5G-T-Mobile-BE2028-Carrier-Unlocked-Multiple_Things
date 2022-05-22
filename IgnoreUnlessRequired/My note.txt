@@ -1,6 +1,5 @@
 Look into magisk plugins
 https://github.com/EnergizedProtection/EnergizedMagisk
-
 https://github.com/Magisk-Modules-Repo/energizedprotection
 https://forum.xda-developers.com/t/module-android-mic-fix.3503128/
 https://github.com/Magisk-Modules-Repo/callrecorder-skvalex/releases
@@ -9,7 +8,7 @@ Look into root only apps
 https://www.reddit.com/r/androidroot/comments/jn2h8g/apps_tweaks_or_methods_to_increase_or_boost/
 https://www.youtube.com/watch?v=UGSdzk62uQ0&t=459
 https://www.youtube.com/watch?v=WX4AswCzwug
-https://www.xda-developers.com/best-magisk-modules/ 
+https://www.xda-developers.com/best-magisk-modules/
 https://www.youtube.com/watch?v=ss0rq6jNHQM
 magiskhideprops?
 Fox's Magisk Module Manager
@@ -28,11 +27,8 @@ https://www.youtube.com/watch?v=uViWKw55DYU
 https://www.youtube.com/watch?v=fs52q7J_1iA
 https://www.youtube.com/watch?v=bwz13aM0qJk
 https://www.youtube.com/watch?v=YAypzSljp-8
-
 Go through these:
-https://www.youtube.com/watch?v=zKFx68-DiZg
 https://www.youtube.com/watch?v=UARe5lYC-ng
-https://www.youtube.com/watch?v=32XdM1ju-fs
 https://www.youtube.com/watch?v=olhbNwkjrLA
 https://www.youtube.com/watch?v=pnazyk_IGTo
 https://www.youtube.com/watch?v=32XdM1ju-fs
