@@ -1,56 +1,27 @@
-Install lawnchair launcher & Open Camera
-https://play.google.com/store/apps/details?id=com.anforapps.camerasuperpixel
 Look into magisk plugins
 Look into root only apps
-Xposed freamework look into
-
-https://www.youtube.com/watch?v=4HbK_2-tUdI
-
 https://www.reddit.com/r/androidroot/comments/jn2h8g/apps_tweaks_or_methods_to_increase_or_boost/
-
 https://www.youtube.com/watch?v=UGSdzk62uQ0&t=459
-
 https://github.com/EnergizedProtection/EnergizedMagisk
-
 https://www.youtube.com/watch?v=WX4AswCzwug
-
 https://www.xda-developers.com/best-magisk-modules/ 
-
-YASNAC https://www.youtube.com/watch?v=c2qIUMUetl4
-
 https://www.youtube.com/watch?v=ss0rq6jNHQM
-
-Safetnetfix? magiskhideprops?
-
+magiskhideprops?
 Fox's Magisk Module Manager
 essential magisk module for me is ACC, or the GUI version, ACCA from FDroid
-
 https://play.google.com/store/apps/details?id=net.metareverse.magiskrepo
-
 https://www.youtube.com/watch?v=VCTYp09Dc74
-
 https://www.youtube.com/watch?v=W7jWWVC9d-8
-
 https://www.youtube.com/watch?v=UJZHGs-A2HA
-
 https://www.youtube.com/watch?v=T7_kFxrURTQ
-
 https://www.youtube.com/watch?v=fsusZe6wJuw
-
 https://www.youtube.com/watch?v=RykmOEy6v4Q
-
 https://www.youtube.com/watch?v=ysCrNcZ3yJc
-
 https://www.youtube.com/watch?v=ZkcGtbpsK8k
-
 https://www.youtube.com/watch?v=0I2U6g6j4Gw
-
 https://www.youtube.com/watch?v=uViWKw55DYU
-
 https://www.youtube.com/watch?v=fs52q7J_1iA
-
 https://www.youtube.com/watch?v=bwz13aM0qJk
-
 https://www.youtube.com/watch?v=YAypzSljp-8
 
 Go through these:
