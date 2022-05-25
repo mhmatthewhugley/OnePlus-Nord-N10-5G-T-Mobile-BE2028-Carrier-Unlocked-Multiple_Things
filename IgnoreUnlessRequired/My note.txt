@@ -1,7 +1,6 @@
 Look into magisk plugins
 https://github.com/EnergizedProtection/EnergizedMagisk
 https://github.com/Magisk-Modules-Repo/energizedprotection
-https://forum.xda-developers.com/t/module-android-mic-fix.3503128/
 https://github.com/Magisk-Modules-Repo/callrecorder-skvalex/releases
 https://github.com/Magisk-Modules-Repo/Detach/releases
 Look into root only apps
