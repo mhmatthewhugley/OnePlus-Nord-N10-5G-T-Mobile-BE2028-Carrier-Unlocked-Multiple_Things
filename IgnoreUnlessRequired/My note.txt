@@ -9,7 +9,6 @@ https://www.youtube.com/watch?v=UGSdzk62uQ0&t=459
 https://www.youtube.com/watch?v=WX4AswCzwug
 https://www.xda-developers.com/best-magisk-modules/
 https://www.youtube.com/watch?v=ss0rq6jNHQM
-magiskhideprops?
 Fox's Magisk Module Manager
 essential magisk module for me is ACC, or the GUI version, ACCA from FDroid
 https://play.google.com/store/apps/details?id=net.metareverse.magiskrepo
