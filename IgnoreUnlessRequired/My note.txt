@@ -1,7 +1,6 @@
-Look into magisk plugins
+Look into magisk plugins modules?
 https://github.com/EnergizedProtection/EnergizedMagisk
 https://github.com/Magisk-Modules-Repo/energizedprotection
-https://github.com/Magisk-Modules-Repo/callrecorder-skvalex/releases
 
 https://github.com/Magisk-Modules-Repo/Detach/releases (Take backup before installing)
 
