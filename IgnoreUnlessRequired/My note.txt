@@ -2,7 +2,9 @@ Look into magisk plugins
 https://github.com/EnergizedProtection/EnergizedMagisk
 https://github.com/Magisk-Modules-Repo/energizedprotection
 https://github.com/Magisk-Modules-Repo/callrecorder-skvalex/releases
-https://github.com/Magisk-Modules-Repo/Detach/releases
+
+https://github.com/Magisk-Modules-Repo/Detach/releases (Take backup before installing)
+
 Look into root only apps
 https://www.reddit.com/r/androidroot/comments/jn2h8g/apps_tweaks_or_methods_to_increase_or_boost/
 https://www.youtube.com/watch?v=UGSdzk62uQ0&t=459
