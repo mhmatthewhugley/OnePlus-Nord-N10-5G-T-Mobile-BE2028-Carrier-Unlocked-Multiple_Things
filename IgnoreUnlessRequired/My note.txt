@@ -4,7 +4,6 @@ https://github.com/Magisk-Modules-Repo/Detach/releases (Take backup before insta
 
 Look into root only apps
 https://www.reddit.com/r/androidroot/comments/jn2h8g/apps_tweaks_or_methods_to_increase_or_boost/
-https://www.youtube.com/watch?v=UGSdzk62uQ0&t=459
 https://www.youtube.com/watch?v=WX4AswCzwug
 https://www.xda-developers.com/best-magisk-modules/
 Fox's Magisk Module Manager
