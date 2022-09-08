@@ -98,6 +98,8 @@ Systemless Hosts
 
 Universal SafetyNet Fix
 
+Zygisk - LSPosed
+
 This section is the list of what I put in the DenyList inside the magisk app:
 
 CardValet
@@ -111,3 +113,7 @@ com.android.vending
 
 Google Wallet
 com.google.android.apps.walletnfcrel
+
+This section is the LSPosed Modules I suggest:
+
+Killergram
