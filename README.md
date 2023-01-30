@@ -114,6 +114,8 @@ com.android.vending
 Google Wallet
 com.google.android.apps.walletnfcrel
 
+com.oculus.twilight
+
 This section is the LSPosed Modules I suggest:
 
 Killergram
