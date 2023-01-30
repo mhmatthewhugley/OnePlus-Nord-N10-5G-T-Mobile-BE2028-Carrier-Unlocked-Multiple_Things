@@ -114,6 +114,7 @@ com.android.vending
 Google Wallet
 com.google.android.apps.walletnfcrel
 
+Meta Quest
 com.oculus.twilight
 
 This section is the LSPosed Modules I suggest:
