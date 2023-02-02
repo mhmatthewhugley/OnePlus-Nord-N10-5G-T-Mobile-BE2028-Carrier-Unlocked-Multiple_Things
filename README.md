@@ -105,6 +105,9 @@ This section is the list of what I put in the DenyList inside the magisk app:
 CardValet
 com.fiservcardvalet.mobile.android
 
+Crossy Road
+com.yodo1.crossyroad
+
 Family Express
 com.familyexpress.finder
 
