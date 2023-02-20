@@ -120,6 +120,9 @@ com.google.android.apps.walletnfcrel
 Meta Quest
 com.oculus.twilight
 
+Telegram
+org.telegram.messenger
+
 This section is the LSPosed Modules I suggest:
 
 Killergram
