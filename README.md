@@ -21,11 +21,11 @@ Firstly I would like to thank "@nosaj_33" for spending "5 hours, 38 minutes and 
 This section is what you need to unarchive/extract:
 \
 The platform-tools_r33.0.1-linux.zip if on Linux and it is the appropriate version needed:
-\
+
 01. Extract ```Restore_OOS.7z```.
-\
+
 02. Extract the file ```OnePlusNordN105G_Restore_OOS11.0.5.BE86AA.zip```.
-\
+
 03. Make sure you unzip the ROM[Extract].7z for the actual files.
 
 This section of instructions is for getting the patched boot image. And unlocking the bootloader:
