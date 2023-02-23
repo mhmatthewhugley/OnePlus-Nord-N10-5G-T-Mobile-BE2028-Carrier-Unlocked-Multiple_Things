@@ -12,7 +12,7 @@
 
 What I did to flash INTL FIRMWARE to UN-brand the device(Oneplus Nord N10 5G BE2028, T-Mobile carrier unlocked), and flash Havoc OS with root(Magisk).
 
-All instructions were written based on using Linux Mint 20.3 x86_64
+All instructions were written based on using Linux Mint 20.3 x86_64.
 
 All files are copyrighted to their respective owner.
 
@@ -44,7 +44,7 @@ or
 then after one of those methods are done run "fastboot oem get_unlock_code".
 While you wait for the unlock token you can prepare the rooted boot image:
 ```
-4. Transfer the boot image and magisk apk to the phone (Certain ROMs dont include it so you might have to extract it using a payload dumper or one of the other methods avaliable. I personally did the payload dumper.)
+4. Transfer the boot image and magisk apk to the phone (Certain ROMs dont include it so you might have to extract it using a payload dumper or one of the other methods avaliable. I personally did the payload dumper.).
 5. Install apk.
 6. Go to the magisk application then click Magisk > Install > Select and Patch a File > select bootHavocOS.img > click LET'S GO
 7. Transfer the patched image to the computer, connect the phone to computer and run ```adb devices``` if nothing comes up make sure the prompt that came up was allowed, then run ```adb pull /sdcard/Download/<magisk_patched-numbers_lettersnumber.img>```.
@@ -56,7 +56,7 @@ first, connect the phone to computer,
 \
 then there are two methods of getting to the bootloader:
 \
-. unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader"
+. unlock the phone screen then hold the power button and click the 3 dots and click "Bootloader".
 \
 or
 \
@@ -123,7 +123,7 @@ This section of instructions is for flashing the patched boot image:
 \
 32. Click "Reboot" Click "Fastboot".
 \
-33. ```./fastboot flash boot ./Files/HavocOS\ 2022-04-17/Patched\ BOOT\ IMAGE/magisk_patched-24300_QENbr.img```
+33. ```./fastboot flash boot ./Files/HavocOS\ 2022-04-17/Patched\ BOOT\ IMAGE/magisk_patched-24300_QENbr.img```.
 \
 34. Boot then open the app and follow the instruction about additonal things being required it will reboot.
 
