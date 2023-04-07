@@ -163,3 +163,19 @@ org.telegram.messenger
 This section is the LSPosed Modules I suggest:
 \
 Killergram
+
+Root Related APKs(Some I have not fully tested if they help.):
+\
+HMA-V3.1.1.apk
+\
+Ruru.1.1.0.apk
+\
+SudoHide_1.28.5.apk
+
+Other modules some help some I might not did not fully test all:
+\
+reset-sensitive-props.zip
+\
+safetynet-fix-v2.4.0-MOD_1.2.zip
+\
+Shamiko-v0.6-126-release.zip
