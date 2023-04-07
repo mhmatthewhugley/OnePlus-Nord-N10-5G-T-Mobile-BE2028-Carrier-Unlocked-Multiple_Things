@@ -161,6 +161,32 @@ com.oculus.twilight
 \
 Telegram
 org.telegram.messenger
+\
+Dont know if these should actually be on the list:
+\
+Fitbit
+com.fitbit.FitbitMobile
+\
+Google Play Services for AR
+com.google.ar.core
+\
+Momo
+io.github.vvb2060.mahoshojo
+\
+Privacy
+com.privacy.pay
+\
+Ruru
+com.byxiaorun.detector
+\
+S Check
+com.hce.compliance.checker
+\
+TB Checker
+krypton.tbsafetychecker
+\
+Yet Another Safet...ttestation Checker
+rikka.safetynetchecker
 
 This section is the LSPosed Modules I suggest:
 \
