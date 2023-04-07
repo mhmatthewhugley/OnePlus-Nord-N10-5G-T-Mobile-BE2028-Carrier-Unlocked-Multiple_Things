@@ -179,3 +179,23 @@ reset-sensitive-props.zip
 safetynet-fix-v2.4.0-MOD_1.2.zip
 \
 Shamiko-v0.6-126-release.zip
+
+Some Apps That Can Use Root:
+\
+Termux
+\
+Hide My Applist
+\
+Device ID Changer
+\
+YASNAC
+\
+Momo
+\
+Ice Box
+\
+TB Checker
+\
+S Check
+\
+Ruru
