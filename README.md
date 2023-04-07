@@ -196,6 +196,8 @@ Momo
 \
 Ice Box
 \
+Lucky Patcher (Useful even if you don't root)
+\
 TB Checker
 \
 S Check
