@@ -164,7 +164,7 @@ This section is the LSPosed Modules I suggest:
 \
 Killergram
 
-Root Related APKs(Some I have not fully tested if they help.):
+Root Related APKs (Some I have not fully tested if they help):
 \
 HMA-V3.1.1.apk
 \
@@ -172,7 +172,7 @@ Ruru.1.1.0.apk
 \
 SudoHide_1.28.5.apk
 
-Other modules some help some I might not did not fully test all:
+Other modules (some help, some I might not have fully tested):
 \
 reset-sensitive-props.zip
 \
