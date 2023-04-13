@@ -233,3 +233,9 @@ Ruru
 Other APKs:
 \
 MGC_8.1.101_A9_GV2a_snap.apk
+\
+Magisk-v24.3.apk
+\
+Magisk-25.2(25200).apk
+\
+Killergram_22.03.12.apk
