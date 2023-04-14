@@ -131,8 +131,6 @@ This section is the list of modules I recommend using:
 \
 Energized Protection (energizedprotection-220215136.zip)
 \
-Systemless Hosts
-\
 Universal SafetyNet Fix (safetynet-fix-v2.2.1.zip, safetynet-fix-v2.4.0.zip)
 \
 Systemless Hosts
