@@ -129,7 +129,7 @@ This section of instructions is for flashing the patched boot image:
 
 This section is the list of modules I recommend using:
 \
-Energized Protection
+Energized Protection (energizedprotection-220215136.zip)
 \
 Systemless Hosts
 \
