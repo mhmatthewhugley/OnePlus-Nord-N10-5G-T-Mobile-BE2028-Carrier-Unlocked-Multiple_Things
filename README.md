@@ -159,7 +159,7 @@ com.oculus.twilight
 \
 Telegram
 org.telegram.messenger
-\
+
 Dont know if these should actually be on the list:
 \
 Fitbit
