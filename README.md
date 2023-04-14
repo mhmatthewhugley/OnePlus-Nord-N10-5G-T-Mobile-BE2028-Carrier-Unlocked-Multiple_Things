@@ -133,11 +133,11 @@ Energized Protection (energizedprotection-220215136.zip)
 \
 Systemless Hosts
 \
-Universal SafetyNet Fix
+Universal SafetyNet Fix (safetynet-fix-v2.2.1.zip, safetynet-fix-v2.4.0.zip)
 \
 Systemless Hosts
 \
-Zygisk - LSPosed
+Zygisk - LSPosed (LSPosed-v1.8.3-6552-zygisk-release.zip, Zygisk_-_LSPosed-v1.8.4(6609).zip, Zygisk_-_LSPosed-v1.8.5(6649).zip, Zygisk_-_LSPosed-v1.8.6(6712).zip)
 
 This section is the list of what I put in the DenyList inside the magisk app:
 \
