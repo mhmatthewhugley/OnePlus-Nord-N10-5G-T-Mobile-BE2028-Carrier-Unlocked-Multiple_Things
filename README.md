@@ -192,7 +192,7 @@ Killergram (Killergram_22.03.12.apk)
 
 Root Related APKs (Some I have not fully tested if they help):
 \
-HMA-V3.1.1.apk
+HMA-V3.1.1.apk (Used to hide itself, Magisk, Lucky Patcher, two other apps.)
 \
 Ruru.1.1.0.apk
 \
