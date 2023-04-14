@@ -190,7 +190,7 @@ rikka.safetynetchecker
 
 This section is the LSPosed Modules I suggest:
 \
-Killergram
+Killergram (Killergram_22.03.12.apk)
 
 Root Related APKs (Some I have not fully tested if they help):
 \
@@ -237,5 +237,3 @@ MGC_8.1.101_A9_GV2a_snap.apk
 Magisk-v24.3.apk
 \
 Magisk-25.2(25200).apk
-\
-Killergram_22.03.12.apk
