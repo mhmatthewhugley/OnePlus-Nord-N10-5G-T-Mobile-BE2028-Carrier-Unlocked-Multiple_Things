@@ -241,3 +241,9 @@ momo-v4.0.0.apk
 Note Worthy APP(s):
 \
 https://play.google.com/store/apps/details?id=de.szalkowski.activitylauncher&hl=en&gl=US
+
+To restore device for sale use:
+\
+https://forum.xda-developers.com/t/opn105g-oos-tmo-be88cb-unbrick-tool-to-restore-your-device-to-oxygenos.4245455/
+\
+Have to manually update to the latest version after installing.
