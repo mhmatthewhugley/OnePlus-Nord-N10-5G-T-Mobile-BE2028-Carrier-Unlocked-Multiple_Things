@@ -252,4 +252,16 @@ Resources I used in the past for this phone:
 \
 https://www.didgeridoohan.com/magisk/HomePage
 \
+https://www.reddit.com/r/Magisk/comments/zsygbd/comment/j1bi32h/?utm_source=share&utm_medium=web2x&context=3
+\
+https://forum.xda-developers.com/t/guide-how-to-hide-the-root-of-bank-applications.4172127/#post-86008043
+\
+https://github.com/kdrag0n/safetynet-fix/releases
+\
+https://android.stackexchange.com/questions/245301/bypassing-advanced-root-modded-framework-detection
+\
+https://www.reddit.com/r/Magisk/comments/11czf11/comment/jad9ylp/?utm_source=share&utm_medium=web2x&context=3
+\
+https://www.reddit.com/r/LineageOS/comments/rj2pwx/comment/hp4jctk/?utm_source=share&utm_medium=web2x&context=3
+\
 https://www.reddit.com/r/LineageOS/comments/10nes50/comment/j6k856a/?utm_source=share&utm_medium=web2x&context=3
