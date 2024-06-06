@@ -247,3 +247,9 @@ To restore device for sale use:
 https://forum.xda-developers.com/t/opn105g-oos-tmo-be88cb-unbrick-tool-to-restore-your-device-to-oxygenos.4245455/
 \
 Have to manually update to the latest version after installing.
+
+Resources I used in the past for this phone:
+\
+https://www.didgeridoohan.com/magisk/HomePage
+\
+https://www.reddit.com/r/LineageOS/comments/10nes50/comment/j6k856a/?utm_source=share&utm_medium=web2x&context=3
